@@ -30,24 +30,51 @@
          }
 
         .container-fluid {
-            padding: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             border: 1px solid rgb(218, 208, 208);
         }
 
         #second {
             text-align: center;
-            background-color: gray;
-            border: 1px solid gray;
+            background-color:#edeff2;
+            border: 1px solid #edeff2;
+            border-radius: 5px;
             padding: 30px;
+            font-size: 13px;
 
 
+        }
+        .b{
+            background-color: #F2C962;
+            border-radius: 4px;
         }
 
         a {
-            text-decoration: none;
+            text-decoration: none;  
         }
         span{
-            margin-left: 6px;
+             margin-left: 20px;
+        }
+        #logo{
+            margin-left: 480px;
+             margin-bottom: 50px; 
+            font-size: 25px; 
+            color: tomato;
+            transition: 4s;
+            
+
+        }
+        #logo:hover{
+            margin-left: 450px;
+            margin-bottom: 50px; 
+            font-size: 25px; 
+            color: aqua;
+            transition: 2s;
+            t
+
         }
     </style>
 </head>
@@ -56,34 +83,39 @@
 
     <main>
         <div class="block">
-            <img src="./Assests/logo.PNG" class="mt-4" style="margin-left:100px ;">
+            <img src="./Assests/Capture.PNG" class="mt-4" style="margin-left:120px ;">
             <div class="container-fluid mt-2">
-                <h3 class="mt-1">Sign-In</h3>
-                <b mt-4>Email or mobile phone number</b>
-                <input type="text" class="form-control">
-                <button class="btn btn-warning w-100 mt-3">Continue</button>
-                <div class="mt-4">
-                    <p>By continuing, you agree to Amazon's a <a href="">Conditions of Use Privacy Notice.</a></p>
-                    <i class="bi bi-caret-right-fill"></i>
-                    <a href="#">Need help?</a>
-                </div>
+                <h1 class="mt-1 mb-2">Sign-In</h1>
+                <b style="font-size: 13px;">Email or mobile phone number</b>
+                <input type="email" class="w-100 mt-1">
+                <button class="b w-100 mt-2 p-1" style="font-size: 13px;">Continue</button>
+                 <div style="font-size: 13px; " class="mt-3">
+                    By continuing, you agree to Amazon's <a href="/">Conditions of Use</a> and <a href="/">Privacy Notice</a>.
+                    <div class="mt-4">
+                        <i class="bi bi-caret-right-fill"></i><a href="/">Need help?</a>
+                    </div>
+                  </div>
             </div>
-            <div class="mt-4">
-                <span>-------------------New to Amazon?----------------</span>
+            <div class="mt-1">
+                <img src="./Assests/2.PNG" alt="">
             </div>
-            <button id="sencond" class="w-100 mt-4 ">create your Amazon account</button>
+            <button id="sencond" class="w-100 mt-1">create your Amazon account</button>
         </div>
     </main>
-    <br> <br> <br> <br> <br> <br>
-    <hr>
+    <br> <br> <br><br>
+    <img src="./Assests/hr.PNG" alt="" class="mt-2">
 
-   <footer>
+   <footer style="font-size: 13px; text-align: center;">
         <span><a href="#"> Conditions of Use </a></span> <span><a href="#"> Privacy Notice </a></span> <span><a href="#">Help </a></span>
-        <p class="mt-3"> &#169; 1996-2022, Amazon.com, Inc. or its affiliates</p>
+        <p class="mt-1"> &#169; 1996-2022, Amazon.com, Inc. or its affiliates</p>
         
    </footer>
 
-  
+  <div >
+      <a href="/">
+        <span class="bi bi-instagram fixed-bottom " id="logo"></span>
+      </a>
+  </div>
 </body>
 
 </html>
